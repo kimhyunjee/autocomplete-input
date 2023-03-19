@@ -166,11 +166,14 @@ const AutoComplete = () => {
                     onMouseLeave={onMouseLeave}
                   >
                     {data.name}
+                    {"("}
+                    {data.age}
+                    {")"}
                   </li>
                 );
               })
             ) : (
-              <li>검색 결과가 없습니다.</li>
+              <li className="none-list">검색 결과가 없습니다.</li>
             )}
           </ul>
         </div>

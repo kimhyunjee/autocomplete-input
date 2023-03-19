@@ -16,6 +16,7 @@
   padding: 0 5px;
   outline: #808080;
   border-radius: 5px;
+  list-style: none;
 }
 
 .list {
@@ -23,4 +24,13 @@
   margin: 0 20px;
   padding: 0 5px;
   cursor: pointer;
+  list-style: none;
+}
+
+.none-list {
+  /* background-color: aqua; */
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  list-style: none;
 }
