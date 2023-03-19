@@ -1,0 +1,26 @@
+.input {
+  /* background-color: aqua; */
+  width: 300px;
+  height: 30px;
+  margin: 50px 50px 0 50px;
+  padding: 3px 5px;
+  outline: #808080;
+  border-radius: 5px;
+}
+
+.hover {
+  background-color: #808080;
+  width: 300px;
+  height: 30px;
+  margin: 0;
+  padding: 0 5px;
+  outline: #808080;
+  border-radius: 5px;
+}
+
+.list {
+  /* background-color: aqua; */
+  margin: 0 20px;
+  padding: 0 5px;
+  cursor: pointer;
+}
